@@ -5,4 +5,4 @@ Open project directory and run:
 Click the link got in terminal. It will run in localhost.
 If some other application is running in allocated port, it will run in another port
 
-Please ensure that you will install all your dependencies.
+Please ensure that you have installed all your dependencies.
