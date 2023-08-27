@@ -10,13 +10,14 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   place-items: center;
+  gap: 20px;
 }
 
 .product {
   border-radius: 15px;
   width: 300px;
   height: 350px;
-  margin: 100px;
+  margin: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -24,7 +25,9 @@
 }
 
 .product img {
-  width: 400px;
+  width: 100%; /* Make the image responsive */
+  max-width: 300px; /* Limit image width */
+  height: auto;
 }
 
 .product .description {
@@ -52,3 +55,4 @@
   color: white;
   cursor: pointer;
 }
+
