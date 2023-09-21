@@ -13,15 +13,30 @@
   cd Ecommerce-shopping_cart
   ```
 
-3. Install project dependencies using Yarn:
-  ```bash
-  yarn install
-  ```
+3. Install project dependencies <br />
 
-5. Start the development server:
-  ```bash
-  yarn start
-  ```
+   Using Yarn: <br />
+    ```bash
+    yarn install
+    ```
+
+    Using npm:
+    ```bash
+    npm install
+    ```
+
+4. Start the development server<br />
+
+    Using Yarn:  <br />
+      ```bash
+      yarn start
+      ```
+
+    Using npm:
+      ```bash
+      npm start
+      ```
+   
 
 Now the website will work on your localhost.
 
